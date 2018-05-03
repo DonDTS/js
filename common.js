@@ -365,7 +365,7 @@ $(document).ready(function() {
         });
 
         $('a').each(function(index, value) {
-          console.log(index + ':' + $(this).text(), '(href=' + $(this).attr('href') + ')');
+          console.log(value + ':' + $(this).text(), '(href=' + $(this).attr('href') + ')');
         });
 
       });
